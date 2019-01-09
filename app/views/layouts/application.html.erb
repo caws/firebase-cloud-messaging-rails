@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FirebasePushExample</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%#= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Material Design Theming -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes"></head>
+
+  <body>
+    <%= yield %>
+
+    <!-- Import and configure the Firebase SDK -->
+    <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
+    <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-messaging.js"></script>
+    <%= javascript_include_tag 'firebase', 'data-turbolinks-track': 'reload' %>
+  </body>
+</html>
