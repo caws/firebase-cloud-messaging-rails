@@ -27,7 +27,6 @@ Luckily, it's pretty straightforward to get this gem up and running. As I have a
 
 ```
 bundle
-gem install serviceworker-rails
 ```
 
 However, if you're curious as to how this gem works you can find more details on their page [ServiceWorker::Rails](https://github.com/rossta/serviceworker-rails)
