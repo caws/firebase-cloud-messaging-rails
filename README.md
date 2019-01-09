@@ -4,7 +4,7 @@ This is a port of [quickstart-js](https://github.com/firebase/quickstart-js/tree
 
 What's in this solution:
 
-* A complete working example of how to send push notifications to a rails application using Firebird
+* A complete working example of how to send push notifications to a rails application using Firebase
 
 ## Getting Started
 
