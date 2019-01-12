@@ -21,7 +21,7 @@ Ruby 2.5.1
 
 * ServiceWorker::Rails
 
-This project uses ServiceWorker in order to provide the firebase-messaging-sw service worker. The reason being pretty sinple, Rails' assets pipeline wasn't built with service workers in mind.
+This project uses ServiceWorker in order to provide the firebase-messaging-sw service worker. The reason being pretty simple, Rails' assets pipeline wasn't built with service workers in mind.
 
 Luckily, it's pretty straightforward to get this gem up and running. As I have already done everything that's needed to install it, all you have to do is the following: 
 
